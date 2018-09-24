@@ -1,54 +1,54 @@
 {
-  "Username": "anthive",
-  "Ants": {
+  "username": "anthive",
+  "ants": {
     "1": {
-      "Wasted": 0,
-      "Age": 14,
-      "Health": 7,
-      "Payload": 3,
-      "X": 0,
-      "Y": 0,
-      "Event": "birth"
+      "wasted": 0,
+      "age": 14,
+      "health": 7,
+      "payload": 3,
+      "x": 0,
+      "y": 0,
+      "event": "birth"
     },
     "17": {
-      "Wasted": 4,
-      "Age": 1,
-      "Health": 1,
-      "Payload": 0,
-      "X": 1,
-      "Y": 1,
-      "Event": "good"
+      "wasted": 4,
+      "age": 1,
+      "health": 1,
+      "payload": 0,
+      "x": 1,
+      "y": 1,
+      "event": "good"
     }
   },
-  "Map": {
-    "Width": 3,
-    "Height": 3,
-    "Cells": [
+  "map": {
+    "width": 3,
+    "height": 3,
+    "cells": [
       [
         {
-          "Ant": "anthive",
-          "Hive": "anthive"
+          "ant": "anthive",
+          "hive": "anthive"
         },
         {},
         {}
       ],
       [
         {
-          "Food": 5
+          "food": 5
         },
         {
-          "Ant": "anthive"
+          "ant": "anthive"
         },
         {}
       ],
       [
         {
-          "Food": 9
+          "food": 9
         },
         {},
         {
-          "Ant": "stranger",
-          "Hive": "stranger"
+          "ant": "stranger",
+          "hive": "stranger"
         }
       ]
     ]
