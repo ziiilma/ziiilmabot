@@ -30,6 +30,9 @@ http.createServer(function(req, res) {
             }
             console.log("Orders:",response)
             res.end(JSON.stringify(response));
+
+            // json format sample:
+            // {"1":{"act":"load","dir":"down"},"17":{"act":"load","dir":"up"}}
         });
     } else {
         res.end("only POST allowed");

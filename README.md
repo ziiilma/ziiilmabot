@@ -2,7 +2,8 @@
 
 ## Requirements
 - nodejs ^10.9
-- Folk https://github.com/anthive/js.git to your account.
+- Clone https://github.com/anthive/js.git
+- Push to your Github account.
 - Do not push your code to sample bot repo.
 - Signup at https://profile.anthive.io/
 - Set your username in [ANTHIVE](ANTHIVE) file
@@ -22,7 +23,7 @@ curl -X 'POST' -d @payload.json http://localhost:7070
 - Go to [Profile](https://profile.anthive.io/)
 - Queue the game
 
-## Coming Soon: *Ranked games and ML* 
+## Coming Soon: *Ranked games and ML*
 - Go to [Profile](https://profile.anthive.io/)
 - Enable Career
 - [Leaderboard](https://anthive.io/liaderboard)
