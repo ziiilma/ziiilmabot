@@ -21,10 +21,11 @@ http.createServer(function(req, res) {
 
             //Loop through ants and give orders
             for (let antId in hive.ants) {
-                let random = Math.floor(Math.random() * 4);
+              let random_act = Math.floor(Math.random() * 4);
+              let random_dir = Math.floor(Math.random() * 4);
                 response[antId] = {
-                  "act":actions[random],
-                  "dir":directions[random]
+                  "act":actions[random_act],
+                  "dir":directions[random_dir]
                 }
             }
             console.log("Orders:",response)

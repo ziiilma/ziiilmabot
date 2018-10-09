@@ -4,7 +4,7 @@
 - nodejs ^10.9
 - Folk https://github.com/anthive/js.git to your account.
 - Do not push your code to sample bot repo.
-- Signup at https://anthive-dev.firebaseapp.com/
+- Signup at https://profile.anthive.io/
 - Set your username in [ANTHIVE](ANTHIVE) file
 
 ## Run locally
@@ -19,10 +19,10 @@ curl -X 'POST' -d @payload.json http://localhost:7070
 
 ## Debug and Sandbox
 - git push
-- Go to [Profile](https://anthive-dev.firebaseapp.com/profile)
+- Go to [Profile](https://profile.anthive.io/)
 - Queue the game
 
-## Coming Soon: *Ranked games and Career*
-- Go to [Profile](https://anthive-dev.firebaseapp.com/profile)
+## Coming Soon: *Ranked games and ML* 
+- Go to [Profile](https://profile.anthive.io/)
 - Enable Career
 - [Leaderboard](https://anthive.io/liaderboard)
