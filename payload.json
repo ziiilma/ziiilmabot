@@ -1,5 +1,5 @@
 {
-  "username": "anthive",
+  "id": "spanID",
   "ants": {
     "1": {
       "wasted": 0,
@@ -26,8 +26,8 @@
     "cells": [
       [
         {
-          "ant": "anthive",
-          "hive": "anthive"
+          "ant": "spanID",
+          "hive": "spanID"
         },
         {},
         {}
@@ -37,7 +37,7 @@
           "food": 5
         },
         {
-          "ant": "anthive"
+          "ant": "spanID"
         },
         {}
       ],
