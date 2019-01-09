@@ -15,7 +15,7 @@
 - Replay game step by step
 - View logs
 
-## Run locally
+### Run locally (not required)
 ```
 node run.js
 ```
@@ -26,7 +26,9 @@ It will start localhost server on port :7070 **Do not change port**
 curl -X 'POST' -d @payload.json http://localhost:7070
 ```
 
+### [Rules](https://anthive.io/rules/) and [Leaderboard](https://anthive.io/leaderboard/)
+
 ### Coming Soon:
-- Go to [Profile](https://profile.anthive.io/)	- Carrera Mode
-- Enable Career	- Tournaments
-- [Leaderboard](https://anthive.io/liaderboard)	- AI/ML bots
+- Carrera Mode
+- Tournaments
+- AI/ML bots
