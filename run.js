@@ -1,7 +1,7 @@
 var http = require('http');
 var url = require('url');
 
-const actions = ["move","eat","load","unload"]
+const actions = ["stay","move","eat","load","unload"]
 const directions = ["up","down","right","left"]
 
 http.createServer(function(req, res) {
@@ -28,11 +28,11 @@ http.createServer(function(req, res) {
                   "dir":directions[random_dir]
                 }
             }
-            console.log("Orders:",response)
-            res.end(JSON.stringify(response));
 
             // json format sample:
             // {"1":{"act":"load","dir":"down"},"17":{"act":"load","dir":"up"}}
+            res.end(JSON.stringify(response));
+            console.log("Tick:", hive.tick, response)
         });
     } else {
         res.end("only POST allowed");
